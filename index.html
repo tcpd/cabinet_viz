@@ -13,11 +13,20 @@
     <font color="#6F7477">Keya Gupta and Saloni Bhogale</font>
     </p>
     <p>
-    Independence granted us the autonomy to govern our own country. A critical effect was the birth of the first Nehru ministry which paved its way to the Council of Ministers. Since then, ranks have changed, ministries have been added and women’s representation has increased. This analysis focuses on how the data assembled as a part of TCPD’s Indian Council of Ministers Dataset (TCPD-ICoM 1.0) can be analysed through different types of visualizations. The data spans the years from 1947 to 2019, represents the evolving story of the Indian Council of Ministers through data. Here we plot out some of the trends that can be gleaned from analysing the dataset. By doing so, we hope to illustrate the various considerations during usage and analysis of its components using different types of visualizations. 
+    Independence granted us the autonomy to govern our own country. A critical effect was the birth of the first Nehru ministry in 1947 which paved its way to the Council of Ministers. Since then, ranks have changed, ministries have been added and women’s representation has increased. This analysis focuses on how the data assembled as a part of TCPD’s Indian Council of Ministers Dataset (TCPD-ICoM 1.0) can be analysed through different types of visualizations. The data spans the years from 1947 to 2019 and represents the evolving story of the Indian Council of Ministers. 
+
     </p>
+    <p>
+    As a part of our efforts to digitize and release this dataset, we have captured the start and end dates of each ministers’ tenure including the ranks, ministries, department details (if applicable). In addition to this, we also incorporate information about the minister’s profile - for eg. the house from which (s)he was elected, gender, political party, state etc. Details about each of these variables has been described in the codebook <a href="">here</a>. 
+	</p>
+	<p>
+	Here we plot out some of the trends that can be observed in the dataset. By doing so, we hope to illustrate the various considerations during usage and analysis of its components using different types of visualizations. 
+
+	</p>
+	
     <h4>Terms of Prime Ministers </h4>
     <p>
-    As the dataset has the columns indicating the start and end dates for each term, we stratify the data to visualize the prime ministerial position and the parties they belong to. 
+    As the dataset has the columns indicating the start and end dates for each term, we divide  the data by the ‘rank’ column to visualize the prime ministerial position and the parties they belong to. 
     </p>
     <! -- Insert the visualization: Gantt Chart for Prime Ministers here --> 
     <div>
@@ -42,7 +51,8 @@
 
     <! -- End Gantt Chart for Prime Ministers here --> 
 	<p>
-	This simple gantt chart confirms what we already know: the PM’s position was mostly held by members of the INC post independence, while the last four decades have witnessed frequent changes. The gantt charts are also useful as the tenures of each person at various positions spans over a period of time.  For example, we see the long tenures of prime ministers like Jawaharlal Nehru and Indira Gandhi, and also shorter tenures of prime ministers like Gulzarilal Nanda (who took position for a brief period following Nehru’s death). The tenure of each person at a position is varied, and can be visualized appropriately over a timeline. 
+	This <a href="https://en.wikipedia.org/wiki/Gantt_chart">simple gantt chart </a> confirms what we know: the PM’s position was mostly held by members of the Indian National Congress (INC) post independence, while the last four decades have witnessed frequent changes. The gantt charts are also useful as the tenures of each person at various positions spans over a period of time.  For example, we see the long tenures of prime ministers like Jawaharlal Nehru (1947 to 1964, close to 17 years) and Indira Gandhi (1966 to 1977, and again from 1980 to 1984, almost 14 years), and also shorter tenures of prime ministers like Gulzarilal Nanda (who took position for a brief period following Nehru’s death and served as Prime Minister for barely 3 weeks). Since the amount of time served by each minister at a position is varied, it is helpful to visualize this over a timeline. 
+
 
 	</p>
 	<h4>Composition of Ministries</h4>
@@ -104,15 +114,16 @@
 
 	<! -- End: Cabinet by Gender -->
 	<p>
-	Moreover, we also see how positions have evolved over time by selecting different ministry categories. For instance, Rajiv Gandhi wanted a more compact Council of Ministers. He achieved this by stipulating two ranks: Cabinet Minister and Minister of State, doing away with the convention of having a ‘Deputy Cabinet Minister’ position. Moreover, we can also see that the convention of allotting a position of ‘Deputy Prime Minister’ has been irregularly followed. 
+	Moreover, we also see how positions have evolved over time by selecting different ministry categories. For instance, Rajiv Gandhi’s Ministry saw a compact Council of Ministers, which he achieved by stipulating two ranks: Cabinet Minister and Minister of State, doing away with the convention of having a ‘Deputy Cabinet Minister’ position. Moreover, we can also see that the convention of allotting a position of ‘Deputy Prime Minister’ has been irregularly followed. 
+
 	</p>
 	<h4>Composition of Council by House</h4>
 	<p>
-	This final visualization shows the distribution of ministers by the house from which they were elected from 1953 to 2019. We have selected this range as the Upper and Lower Houses of the Parliament were formally instituted in 1952. We expect to find a larger share of Council Ministers belonging to the Lok Sabha owing to the fact that the Lok Sabha’s strength was more than twice the strength of the Rajya Sabha at any point. Even so, we see a larger share of Ministers from the Lok Sabha than expected in a few years - for instance 88% of ministers belonged to the Lok Sabha in 1963, and for all years, an average of 78% of ministers belonged to the Lok Sabha. 
-
+	This final visualization shows the distribution of ministers by the house from which they were elected from 1953 to 2019. We have selected this range as the Upper and Lower Houses of the Parliament were formally instituted in 1952. We expect to find a larger share of Council Ministers belonging to the Lok Sabha owing to the fact that the Lok Sabha’s strength was more than twice the strength of the Rajya Sabha at any point. We observe a larger share of Ministers from the Lok Sabha than expected in a few years - for instance 88% of ministers belonged to the Lok Sabha in 1963, and for all years, an average of 78% of ministers belonged to the Lok Sabha. 
 	</p>
 	<p>
-	Tihere are few members for whom the house details say ‘Others’. These are of two types. Firstly, there are a few ministers who were a part of the Cabinet Secretariat but not the Lok Sabha or Rajya Sabha, but were included in the Cabinet by convention for a few years. Second, there is a group of ministers who were not members of any house at the time they were elected. The rules state that any minister has six months to be elected to either house after appointment, and thus the ministers who did not belong to either house at the time of election come under this section. 
+	Moreover, there are few members for whom the house details say ‘Others’. These are of two types. Firstly, there are a few ministers who did not belong to the Lok Sabha or Rajya Sabha. These were a part of the Cabinet Secretariat, and following the conventions at that time, they were considered to be a part of the Cabinet. Second, there is a group of ministers who were not members of any house at the time they were elected. The rules state that any minister has six months to be elected to either house after appointment, and thus the ministers who did not belong to either house at the time of election come under this section. 
+
 
 	</p>
 	<! -- Start: Cabinet by House -->
@@ -139,6 +150,10 @@
 
 
 	<! -- End: Cabinet by House -->
+	<p>
+	The aim of this piece is to encourage journalists and researchers to use this data as it offers an opportunity to explore different facets of the council of ministers. For instance, it can uncover insights about the size of the cabinet (across ministry categories), allocation of positions across parties (during coalition governments) and representation of members from different states. Cabinet shuffles allocate political power at the highest level of Government in India, and the information the ministers at the helm forms an essential step to evaluating their performance. 
+
+	</p>
 	<p>
 	The data used to create this analysis is available for download from the link <a href="">here</a> and the codebook is available <a href="">here</a>. Should you have any query and/or notice an error, please send us a message or write us at <a href="mailto:tcpd-contact@ashoka.edu.in">tcpd-contact@ashoka.edu.in </a>
 
